@@ -1,0 +1,101 @@
+.title {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  height: 130px;
+}
+
+body {
+  background-color: black;
+}
+
+.btn {
+  background-color: white;
+  cursor: pointer;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.game_area {
+  border-color: white;
+  /* border-style: dotted; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 70%;
+  height: 900px;
+  color: white;
+  text-align: center;
+}
+
+.dealer_box {
+  position: relative;
+  height: 350px;
+  border-color: white;
+  border-style: dotted;
+}
+
+.dealer_box_title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.dealer_card_box {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dealer_status_box {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  height: 50px;
+}
+
+.player_box {
+  position: relative;
+  height: 450px;
+  border-color: white;
+  border-style: dotted;
+}
+
+.player_box_title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.player_card_box {
+  margin-top: 25px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards {
+  height: 139.5px;
+  width: 100px;
+}
+
+.player_btn_box {
+  height: 50px;
+  border-style: dashed;
+  margin-left: auto;
+  margin-right: auto;
+}

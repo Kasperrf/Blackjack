@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="title">
+      <p>Blackjack</p>
+    </div>
+    <div class="center">
+      <button class="btn show">Start!</button>
+    </div>
+
+    <!-- Game layout starts here -->
+    <div class="game_area hidden">
+      <!-- Dealer area starts here -->
+      <div class="dealer_box">
+        <div class="dealer_status_box hidden">
+          <p class="dealer_status_text">Ready to play!</p>
+        </div>
+        <p class="dealer_box_title">Dealer's hand:</p>
+        <div class="dealer_card_box">
+          <img src="" class="dealerCard cards hidden" alt="" />
+          <img src="" class="dealerCard cards hidden" alt="" />
+          <img src="" class="dealerCard cards hidden" alt="" />
+          <img src="" class="dealerCard cards hidden" alt="" />
+          <img src="" class="dealerCard cards hidden" alt="" />
+          <img src="" class="dealerCard cards hidden" alt="" />
+        </div>
+      </div>
+
+      <!-- Player box starts here -->
+      <div class="player_box">
+        <p class="player_box_title">Your hand:</p>
+        <div class="player_card_box">
+          <img src="" class="playerCard cards hidden" alt="" />
+          <img src="" class="playerCard cards hidden" alt="" />
+          <img src="" class="playerCard cards hidden" alt="" />
+          <img src="" class="playerCard cards hidden" alt="" />
+          <img src="" class="playerCard cards hidden" alt="" />
+          <img src="" class="playerCard cards hidden" alt="" />
+        </div>
+        <div class="player_btn_box">
+          <div>
+            <button class="btn hit">Hit</button>
+            <button class="btn hit2 hidden">Hit</button>
+            <button class="btn hit3 hidden">Hit</button>
+            <button class="btn hit4 hidden">Hit</button>
+            <button class="btn hit5 hidden">Hit</button>
+            <button class="btn stand hidden">Stand</button>
+            <button class="btn double hidden">Double</button>
+            <button class="btn surrender hidden">Surrender</button>
+            <button class="btn replay hidden">Play again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
